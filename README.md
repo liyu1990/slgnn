@@ -1,2 +1,2 @@
 # slgnn
-Signed Laplacian Gtaph Neural Networks, aaai2023
+Signed Laplacian Graph Neural Networks, aaai2023
