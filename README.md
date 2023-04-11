@@ -5,7 +5,7 @@ Implementation of "Signed Laplacian Graph Neural Networks", aaai2023.
 --------------
 Before uploading the code, we reproduced the experimental results in our paper, as shown in the "logging" folder.
 
-The experimental results were achieved in the following environment:
+The experimental results were achieved with the following environment:
 
 @ Dependencies:
 - [python](https://www.python.org/) (3.7.13)
