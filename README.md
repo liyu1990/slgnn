@@ -2,8 +2,11 @@
 
 Implementation of "Signed Laplacian Graph Neural Networks", aaai2023. 
 
+--------------
+Before uploading the code, we reproduced the experimental results in our paper, as shown in the "logging" folder.
 
-### The experimental results were achieved in the following environment:
+The experimental results were achieved in the following environment:
+
 @ Dependencies:
 - [python](https://www.python.org/) (3.7.13)
 - [pytorch](https://pytorch.org/get-started/previous-versions/) (1.8.0+cu111)
@@ -14,8 +17,3 @@ Implementation of "Signed Laplacian Graph Neural Networks", aaai2023.
 
 @ Hardware 
 - [GPU](https://www.nvidia.com/en-us/data-center/a100/) (A100 with 40GB)
-
-
-
-
-
