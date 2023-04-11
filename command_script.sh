@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
-#SBATCH --time=03:59:00
-#SBATCH --account=rrg-bengioy-ad
-#SBATCH --qos=high
-#SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:1
-#SBATCH --mem=24G
-#SBATCH --output="./output_test.txt"
 
 cuda_device="0"
 
