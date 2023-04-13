@@ -82,9 +82,6 @@ class SLGNN(nn.Module):
     def link_sign_scores(self, link_representations):
         return self.mlp(link_representations)
 
-    def link_sign_scores_bilinear(self, node_reps, src, dst):
-        return torch.sigmoid(self.transform(node_reps[src], node_reps[dst]))
-
     @staticmethod
     def generate_link_representation(reps, src, dst):
         src_emb, dst_emb = reps[src], reps[dst]
